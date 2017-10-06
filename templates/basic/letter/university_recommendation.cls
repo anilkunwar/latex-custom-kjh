@@ -29,12 +29,14 @@
 \LoadClass{university_letter}
 
 \renewcommand{\ps@headings} {\setlength{\headheight}{32pt}%
-  \renewcommand{\@oddhead} {\parbox{\textwidth}{Healy letter for
+  %\renewcommand{\@oddhead} {\parbox{\textwidth}{Healy letter for
+  \renewcommand{\@oddhead} {\parbox{\textwidth}{"FAMILY-NAME"  letter for
       \emph{\toname}\hfill\@date\hfill\pagename{}
       \thepage\\\rule[3pt]{\textwidth}{1pt}}}
-  \renewcommand{\@oddfoot}{\sffamily\tiny 255 Sociology/Psychology
-    Building, Duke University, Durham, North Carolina 27708,
-    USA. Phone: \myphone \,Fax: \myfax.}
+  %\renewcommand{\@oddfoot}{\sffamily\tiny 255 Sociology/Psychology
+   % Building, Duke University, Durham, North Carolina 27708,
+    %USA. Phone: \myphone \,Fax: \myfax.}
+    \renewcommand{\@oddfoot}{\sffamily\tiny No.2 Linggong Road, Ganjingzi District, Dalian City,     			Liaoning Province, P.R.C., 116024. Phone: \myphone \,Fax: \myfax.}
   \renewcommand{\@evenhead}{\@oddhead}
   \renewcommand{\@evenfoot}{\@oddfoot}}
 
